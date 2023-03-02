@@ -1,4 +1,6 @@
-public without sharing class  AccountList { //comment addedd dc
+
+public without sharing class  AccountList { //comment new for push new new onedvfd
+
     //Demo - Apexhoues
     @AuraEnabled(cacheable=true)
     public static List<Account> getAccountList() {
