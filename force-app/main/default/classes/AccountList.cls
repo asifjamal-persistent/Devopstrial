@@ -1,5 +1,5 @@
 
-public without sharing class  AccountList { //comment new for push new
+public without sharing class  AccountList { //comment new for push 
 
     //Demo - Apexhoues
     @AuraEnabled(cacheable=true)
