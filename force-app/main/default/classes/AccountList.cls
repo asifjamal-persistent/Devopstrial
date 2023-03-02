@@ -1,5 +1,5 @@
 
-public without sharing class  AccountList { //comment new for push new new onedvfd
+public without sharing class  AccountList { //comment new for push new
 
     //Demo - Apexhoues
     @AuraEnabled(cacheable=true)
