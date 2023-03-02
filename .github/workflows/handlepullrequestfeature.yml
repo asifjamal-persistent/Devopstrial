@@ -28,7 +28,7 @@ jobs:
             - name: 'Run PMD scan'
               run: ~/pmd/bin/run.sh pmd -d force-app -R pmd/ruleset.xml -f csv -r ./pmd-report.csv
             - name: Save PMD report
-              uses: actions/upload-artifact@v2
+              uses: actions/upload-artifact@v3
               with:
                   name: pmd-report
                   path: pmd-report.csv
